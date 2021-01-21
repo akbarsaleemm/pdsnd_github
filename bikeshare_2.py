@@ -6,7 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 cities=['chicago','new york city','washington']
-months=['January', 'February', 'March', 'April', 'May', 'June', 'July','August', 'September', 'October', 'November', 'December','All']
+months=['January', 'February', 'March', 'April', 'May', 'June', 'July','August', 'September', 'October', 'November', 'December']
 days=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday','All']
 
 def get_filters():
@@ -21,7 +21,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city=str(input('Select a city from Chicago, New York City and Washington. \n')).lower()
+        city=str(input('Select a city from Chicago, New York City and Washington. \n')).Title()
         if city not in cities:
             print('Please enter a valid city name')
         else:
