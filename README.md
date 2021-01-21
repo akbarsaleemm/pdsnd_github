@@ -5,7 +5,7 @@ Include the date you created this project and README file.
 Bikeshare Analysis
 
 ### Description
-Describe what your project is about and what it does
+Analyse the the use of bikeshare system in three cities
 
 ### Files used
 Include the files used
