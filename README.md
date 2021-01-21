@@ -8,7 +8,7 @@ Bikeshare Analysis
 Analyse the the use of bikeshare system in three cities
 
 ### Files used
-Include the files used
+Three CSV files were used
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
